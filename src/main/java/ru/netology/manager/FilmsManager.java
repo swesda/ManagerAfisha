@@ -6,6 +6,10 @@ public class FilmsManager {
     private PurchaseItem[] items = new PurchaseItem[0];
     private int maxFilms = 10;
 
+    public FilmsManager() {
+
+    }
+
     public FilmsManager(int maxFilms) {
         this.maxFilms = maxFilms;
     }
